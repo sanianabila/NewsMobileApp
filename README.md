@@ -1,16 +1,28 @@
 # bacanews
 
-A new Flutter project.
+Bacanews adalah aplikasi mobile yang dibangun menggunakan Flutter, yang mengintegrasikan API Antara News untuk menyajikan daftar berita secara real-time. Aplikasi ini menyediakan berbagai fitur untuk memberikan pengalaman membaca berita yang interaktif dan disesuaikan dengan preferensi pengguna.
 
-## Getting Started
+## Fitur Aplikasi
 
-This project is a starting point for a Flutter application.
+1. Halaman Home
+Menampilkan dua bagian utama:
+Top News: Berita terpopuler saat ini.
+Latest News: Berita terbaru yang sedang trending.
+2. Halaman Discover
+Menyajikan daftar berita dengan berbagai kategori, seperti politik, olahraga, hiburan, dan lain-lain.
+Pengguna dapat memilih kategori untuk melihat berita yang relevan dengan minat mereka.
+3. Fitur Pencarian
+Memungkinkan pengguna untuk mencari berita dengan menggunakan kata kunci atau berdasarkan kategori berita tertentu.
+4. Halaman Profile
+Pengguna dapat mengedit informasi akun mereka, seperti username, email, dan foto profil.
+5. Integrasi API Antara News
+Aplikasi ini menggunakan API Antara News untuk mengambil berita secara real-time, memastikan informasi yang disajikan selalu up-to-date.
+6. Tema Gelap/Terang
+Aplikasi dilengkapi dengan opsi tema yang dapat dipilih oleh pengguna, memungkinkan tampilan aplikasi untuk disesuaikan dengan preferensi mereka (tema gelap atau terang).
 
-A few resources to get you started if this is your first Flutter project:
+## Teknologi yang digunakan
+Flutter: Framework untuk membangun aplikasi mobile.
+Antara News API: Sumber berita untuk menyajikan konten berita terbaru.
+Sumber API : https://berita-indo-api-next.vercel.app/ 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
